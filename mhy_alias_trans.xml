@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2" type="plugin" method="upgrade" group="content">
+	<name>plg_content_mhy_alias_trans</name>
+	<version>1.0.0</version>
+	<creationDate>2014-11-17</creationDate>
+	<author>bsdnemo</author>
+	<authorEmail>bsdnemo at gmail dot com</authorEmail>
+	<copyright>2014 maihuayi.com</copyright>
+	<license>GNU/GPL V2</license>
+	<description>PLG_CONTENT_MHY_ALIAS_TRANS_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="mhy_alias_trans">mhy_alias_trans.php</filename>
+		<folder>language</folder>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="baidu_app_key" type="input"
+					label="PLG_CONTENT_MHY_ALIAS_TRANS_BAIDU_APP_KEY_LBL"
+					description="PLG_CONTENT_MHY_ALIAS_TRANS_BAIDU_APP_KEY_DESC"	
+				/>
+				<field name="from_lang" default="zh" type="list"
+					label="PLG_CONTENT_MHY_ALIAS_TRANS_FROM_LANG_LBL"
+					description="PLG_CONTENT_MHY_ALIAS_TRANS_FROM_LANG_DESC"	
+				>
+					<option value="zh">PLG_CONTENT_MHY_ALIAS_TRANS_ZH</option>
+					<option value="auto">PLG_CONTENT_MHY_ALIAS_TRANS_AUTO</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
