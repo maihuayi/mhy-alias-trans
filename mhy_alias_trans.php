@@ -3,7 +3,7 @@
  * @copyright Copyright (C) 2014 maihuayi.com, All rights reserved.
  * @license GNU/GPL V2 http://gnu.org/licenses/gpl-2.0.html
  * @author bsdnemo at gmail dot com
- * @url https://github.com/maihuayi/mhy-alias-trans
+ * @link https://github.com/maihuayi/mhy-alias-trans
  */
  
 defined('_JEXEC') or die;
